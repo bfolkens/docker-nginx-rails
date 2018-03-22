@@ -1,5 +1,5 @@
 LOCAL_NAME=docker-nginx-rails
-VERSION=latest
+VERSION=`git rev-parse --abbrev-ref HEAD`
 PUBLIC_NAME=docker-nginx-rails
 REPOSITORY=bfolkens
 
